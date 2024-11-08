@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+  <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
   <link rel="stylesheet" href="src/style.css">
   <title>AI Travel Itinerary Generator</title>
 </head>
@@ -15,7 +16,7 @@
 
     <main>
       <form id="itinerary-generator">
-        <input type="text" placeholder="Enter your destination city" autofocus required autocomplete="off" class="input-box">
+        <input type="text" placeholder="Enter your destination city" autofocus required autocomplete="off" class="input-box" id="user-itinerary-instruction">
         <input type="submit" class="submit-button">
       </form>
 
