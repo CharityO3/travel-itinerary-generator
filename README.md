@@ -24,3 +24,6 @@ Feel free to fork the repository, submit issues, and make pull requests if you'd
 
 ## Hosting
 View hosted App on Netlify: https://my-ai-travel-itinerary-generator.netlify.app/
+
+## Author
+Coded by [Charity Orhoridiohwo](https://www.linkedin.com/in/charity-orhoridiohwo-548873150/). Open-sourced on [GitHub](https://github.com/CharityO3/travel-itinerary-generator/) and hosted on [Netlify](https://my-ai-travel-itinerary-generator.netlify.app/). Contributions are welcome!
