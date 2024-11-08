@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
   <link rel="stylesheet" href="src/style.css">
   <title>AI Travel Itinerary Generator</title>
 </head>
@@ -13,15 +14,12 @@
     </header>
 
     <main>
-      <form id="">
+      <form id="itinerary-generator">
         <input type="text" placeholder="Enter your destination city" autofocus required autocomplete="off" class="input-box">
         <input type="submit" class="submit-button">
       </form>
 
-      <div class="travel-itinerary">
-        Day 1: Arrive in Stockholm
-        <br />
-        Day 2: Go skydiving
+      <div class="travel-itinerary" id="travel-itinerary">
       </div>
     </main>
 
