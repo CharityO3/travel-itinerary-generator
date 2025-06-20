@@ -74,8 +74,44 @@ form{
 }
 
 .hidden{
-  display: none;
+  display: none !important;
 }
+
+.weather-box {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600; 
+  font-size: 1.2rem;
+  color: #272044; 
+  font-size: 20px;
+  margin: 20px 0;
+  font-weight: 400;
+}
+
+.weather-box strong {
+  font-weight: 600;
+}
+
+.weather-temperature {
+  font-size: 20px;
+  font-weight: bold;
+  display: inline-block;
+  margin: 1px 2px;
+  vertical-align: middle;
+}
+
+.weather-icon {
+  vertical-align: middle;
+  width: 40px;
+  height: 40px;
+  margin-left: -8px;
+}
+
+.weather-temperature sup {
+  font-size: 12px;
+  vertical-align: super;
+}
+
+
 .travel-itinerary strong{
   color: #885df1;
 }
